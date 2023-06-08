@@ -53,6 +53,10 @@ dependencies {
     implementation deps.constraint_layout
     implementation deps.arch_core.runtime
 
+    implementation project(path: ':home')
+    implementation project(path: ':list')
+    implementation project(path: ':form')
+
     // Navigation
     implementation deps.navigation.runtime_ktx
     implementation deps.navigation.fragment_ktx
